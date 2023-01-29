@@ -1,5 +1,27 @@
+@import "swiper/css";
+@import "swiper/css/effect-coverflow";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+
 .page {
     height: 100%;
     display: flex;
     flex-direction: column;
+
+    .swiper {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
 }

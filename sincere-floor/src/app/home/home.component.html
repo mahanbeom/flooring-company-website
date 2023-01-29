@@ -1,3 +1,17 @@
 <div class="page">
-    
+    <swiper 
+		[cssMode]="true"
+		[navigation]="true"
+		[pagination]="true"
+		[loop]="true"
+		[autoplay]="{
+			delay: 2000,
+			disableOnInteraction: false
+		}"
+		class="mySwiper"
+	>
+		<ng-template swiperSlide *ngFor="let imgPath of imgList">
+			<img [src]="imgPath">
+		</ng-template>
+	</swiper>
 </div>

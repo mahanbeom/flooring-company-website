@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { SwiperModule } from 'swiper/angular';
 
 // material modules
 import { MatButtonModule } from '@angular/material/button';
@@ -30,6 +31,7 @@ const materialModules = [
 
 const modules = [
     HttpClientModule,
+    SwiperModule,
     ...materialModules
 ];
 

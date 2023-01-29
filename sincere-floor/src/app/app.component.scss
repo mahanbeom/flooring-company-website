@@ -14,6 +14,8 @@
     .content {
         background-color: transparent;
         height: calc(100% - var(--gnb-height) - var(--footer-height));
+        padding: 20px 20vw;
+        overflow: auto;
     }
 
     .footer {
