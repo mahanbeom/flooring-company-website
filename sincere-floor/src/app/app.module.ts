@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { EstimateComponent } from './estimate/estimate.component';
 import { ConstructionOrderComponent } from './construction-order/construction-order.component';
 import { ConstructionCaseComponent } from './construction-case/construction-case.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ConstructionCaseComponent } from './construction-case/construction-case
     HomeComponent,
     EstimateComponent,
     ConstructionOrderComponent,
-    ConstructionCaseComponent
+    ConstructionCaseComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

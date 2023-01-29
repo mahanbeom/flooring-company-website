@@ -8,26 +8,17 @@
     .header {
         background-color: transparent;
         height: var(--gnb-height);
-        display: flex;
-        flex-direction: column;
         border-bottom: 1px solid var(--border-color);
     }
 
     .content {
         background-color: transparent;
         height: calc(100% - var(--gnb-height) - var(--footer-height));
-        display: flex;
-        flex-direction: column;
-
     }
 
     .footer {
         background-color: transparent;
         height: var(--footer-height);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         border-top: 1px solid var(--border-color);
     }
 }
