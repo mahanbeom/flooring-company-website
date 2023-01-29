@@ -1,0 +1,26 @@
+.logo-box {
+    height: 80px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .button-box {
+        position: absolute;
+        right: 20vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.menu-box {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}

@@ -1,1 +1,23 @@
-<p>global-nav-bar works!</p>
+<div class="logo-box">
+    <span class="font-24 font-w600">정성마루</span>
+    <div class="button-box">
+        <button mat-icon-button (click)="moveToLink('https://www.youtube.com/@sincerefloor/about')">
+            <mat-icon svgIcon="youtube"></mat-icon>
+        </button>
+        <button mat-icon-button (click)="moveToLink('https://www.instagram.com/sincerefloor/')">
+            <mat-icon svgIcon="instagram"></mat-icon>
+        </button>
+        <button mat-icon-button (click)="moveToLink('https://blog.naver.com/jsmaru97')">
+            <mat-icon svgIcon="naver"></mat-icon>
+        </button>
+        <button mat-icon-button (click)="moveToLink('https://pf.kakao.com/_YSmxis')">
+            <mat-icon svgIcon="kakao"></mat-icon>
+        </button>
+    </div>
+</div>
+<div class="menu-box">
+    <button mat-button class="font-w300 font-16" routerLink="/">ABOUT US</button>
+    <button mat-button class="font-w300 font-16" routerLink="/estimate">ESTIMATION</button>
+    <button mat-button class="font-w300 font-16" routerLink="/construction-order">ORDER</button>
+    <button mat-button class="font-w300 font-16" routerLink="/construction-case">CASE</button>
+</div>

@@ -1,4 +1,509 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bg-color: rgb(249, 249, 249);
+    --gnb-height: 140px;
+    --footer-height: 80px;
+    --border-color: rgba(0, 0, 0, 0.2);
+    --font-color: rgb(6, 6, 6);
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+//===========================================================
+// Width
+//===========================================================
+
+.w-full {
+    width: 100%;
+}
+
+.w-100 {
+    width: 100px;
+}
+
+.w-150 {
+    width: 150px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.w-350 {
+    width: 350px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.w-450 {
+    width: 450px;
+}
+
+.w-500 {
+    width: 500px;
+}
+
+//===========================================================
+// Height
+//===========================================================
+
+.h-full {
+    height: 100%;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-125 {
+    height: 125px;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.h-175 {
+    height: 175px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-225 {
+    height: 225px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.h-275 {
+    height: 275px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-350 {
+    height: 350px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-450 {
+    height: 450px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+//===========================================================
+// Font
+//===========================================================
+
+.font-10 {
+    font-size: 10px;
+}
+
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-w300 {
+    font-weight: 300;
+}
+
+.font-w400 {
+    font-weight: 400;
+}
+
+.font-w500 {
+    font-weight: 500;
+}
+
+.font-w600 {
+    font-weight: 600;
+}
+
+.font-w700 {
+    font-weight: 700;
+}
+
+.font-o30 {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.font-o50 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.text-a-center {
+    text-align: center;
+}
+
+.font-lh-24 {
+    line-height: 24px;
+}
+
+.font-lh-32 {
+    line-height: 32px;
+}
+
+//===========================================================
+// Flex box
+//===========================================================
+
+.fx-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.fx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.a-start {
+    align-items: flex-start;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
+.j-space-between {
+    justify-content: space-between;
+}
+
+.j-space-evenly {
+    justify-content: space-evenly;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.gap-35 {
+    gap: 35px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-45 {
+    gap: 45px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+//===========================================================
+// Padding
+//===========================================================
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pd-25 {
+    padding: 25px;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+.pd-top-10 {
+    padding-top: 10px;
+}
+
+.pd-top-15 {
+    padding-top: 15px;
+}
+
+.pd-top-20 {
+    padding-top: 20px;
+}
+
+.pd-top-25 {
+    padding-top: 25px;
+}
+
+.pd-top-30 {
+    padding-top: 30px;
+}
+
+.pd-left-10 {
+    padding-left: 10px;
+}
+
+.pd-left-15 {
+    padding-left: 15px;
+}
+
+.pd-left-20 {
+    padding-left: 20px;
+}
+
+.pd-left-25 {
+    padding-left: 25px;
+}
+
+.pd-left-30 {
+    padding-left: 30px;
+}
+
+.pd-right-10 {
+    padding-right: 10px;
+}
+
+.pd-right-15 {
+    padding-right: 15px;
+}
+
+.pd-right-20 {
+    padding-right: 20px;
+}
+
+.pd-right-25 {
+    padding-right: 25px;
+}
+
+.pd-right-30 {
+    padding-right: 30px;
+}
+
+.pd-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.pd-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.pd-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.pd-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.pd-bottom-30 {
+    padding-bottom: 30px;
+}
+
+//===========================================================
+// Margin
+//===========================================================
+
+.mg-10 {
+    margin: 10px;
+}
+
+.mg-15 {
+    margin: 15px;
+}
+
+.mg-20 {
+    margin: 20px;
+}
+
+.mg-25 {
+    margin: 25px;
+}
+
+.mg-30 {
+    margin: 30px;
+}
+
+.mg-top-10 {
+    margin-top: 10px;
+}
+
+.mg-top-15 {
+    margin-top: 15px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+
+.mg-top-25 {
+    margin-top: 25px;
+}
+
+.mg-top-30 {
+    margin-top: 30px;
+}
+
+.mg-left-10 {
+    margin-left: 10px;
+}
+
+.mg-left-15 {
+    margin-left: 15px;
+}
+
+.mg-left-20 {
+    margin-left: 20px;
+}
+
+.mg-left-25 {
+    margin-left: 25px;
+}
+
+.mg-left-30 {
+    margin-left: 30px;
+}
+
+.mg-right-10 {
+    margin-right: 10px;
+}
+
+.mg-right-15 {
+    margin-right: 15px;
+}
+
+.mg-right-20 {
+    margin-right: 20px;
+}
+
+.mg-right-25 {
+    margin-right: 25px;
+}
+
+.mg-right-30 {
+    margin-right: 30px;
+}
+
+.mg-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.mg-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.mg-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.mg-bottom-30 {
+    margin-bottom: 30px;
+}
+
+//===========================================================
+// ETC
+//===========================================================
+
+.z-index {
+    z-index: 1;
+}
