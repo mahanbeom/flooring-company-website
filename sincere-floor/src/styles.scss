@@ -6,7 +6,12 @@
     --font-color: rgb(6, 6, 6);
 }
 
-
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
@@ -15,7 +20,15 @@ body {
 
 body {
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: "Cafe24Ohsquare", "Helvetica Neue", sans-serif;
+}
+
+//===========================================================
+// Material Design
+//===========================================================
+
+.mat-mdc-button {
+    font-family: "Cafe24Ohsquare";
 }
 
 //===========================================================
