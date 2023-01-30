@@ -1,6 +1,6 @@
 <div class="page">
     <div class="logo-box">
-        <div class="logo"></div>
+        <div class="logo" routerLink="/"></div>
         <div class="button-box">
             <button mat-icon-button (click)="moveToLink('https://www.youtube.com/@sincerefloor/about')">
                 <mat-icon svgIcon="youtube"></mat-icon>
@@ -17,9 +17,9 @@
         </div>
     </div>
     <div class="menu-box">
-        <button mat-button class="font-w300 font-16" routerLink="/">사업소개</button>
-        <button mat-button class="font-w300 font-16" routerLink="/estimate">견적방법</button>
+        <button mat-button class="font-w300 font-16" routerLink="/about-us">사업소개</button>
         <button mat-button class="font-w300 font-16" routerLink="/construction-order">공사순서</button>
+        <button mat-button class="font-w300 font-16" routerLink="/estimate">견적방법</button>
         <button mat-button class="font-w300 font-16" routerLink="/construction-case">시공사례</button>
     </div>
 </div>

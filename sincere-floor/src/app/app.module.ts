@@ -11,6 +11,7 @@ import { EstimateComponent } from './estimate/estimate.component';
 import { ConstructionOrderComponent } from './construction-order/construction-order.component';
 import { ConstructionCaseComponent } from './construction-case/construction-case.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     EstimateComponent,
     ConstructionOrderComponent,
     ConstructionCaseComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
